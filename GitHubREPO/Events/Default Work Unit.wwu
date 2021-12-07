@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" SchemaVersion="103">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" PersistMode="Standalone">
 			<ChildrenList>
@@ -9,6 +9,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ali_Mejia_Cortes" ID="{7C54E6BD-F4E2-4A10-AD25-D99EF29F428C}" WorkUnitID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bryan" ID="{42F95791-E9C0-4299-A28D-458A6C648B2E}">
+					<ChildrenList>
+						<Action Name="" ID="{CED45450-60A3-459A-A458-BD9D9E07E90B}" ShortID="1067572592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bryan_Rueda_Vilchis" ID="{11463C46-DAFA-4A45-A2D6-DEB67A6F29B7}" WorkUnitID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
