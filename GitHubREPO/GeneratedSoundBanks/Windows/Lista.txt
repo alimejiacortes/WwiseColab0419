@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	869108143	Play_Jorge			\Default Work Unit\Play_Jorge	
 	2976310898	Play_Ali			\Default Work Unit\Play_Ali	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	891600938	Ali_Mejia_Cortes	Y:\Desktop\Student Files\GitHubREPO\.cache\Windows\SFX\Alarms, Bell, School, Ring SND0342_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ali_Mejia_Cortes		668484
+	891600938	Ali_Mejia_Cortes	Y:\Downloads\WwiseColab0419-main\GitHubREPO\.cache\Windows\SFX\Alarms, Bell, School, Ring SND0342_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ali_Mejia_Cortes		668484
+	1011999575	Jorge_Mendoza_Gama	Y:\Downloads\WwiseColab0419-main\GitHubREPO\.cache\Windows\SFX\Designed, Stinger, One Shot, Eerie, Dissonant String SND58110_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jorge_Mendoza_Gama		381484
 
