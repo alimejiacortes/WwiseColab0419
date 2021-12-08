@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	268362774	Play_Ricardo			\Default Work Unit\Play_Ricardo	
 	2976310898	Play_Ali			\Default Work Unit\Play_Ali	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	891600938	Ali_Mejia_Cortes	Y:\Desktop\Student Files\GitHubREPO\.cache\Windows\SFX\Alarms, Bell, School, Ring SND0342_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ali_Mejia_Cortes		668484
+	891600938	Ali_Mejia_Cortes	C:\Users\88555 omx\Downloads\WwiseColab0419-main\WwiseColab0419-main\GitHubREPO\.cache\Windows\SFX\Alarms, Bell, School, Ring SND0342_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ali_Mejia_Cortes		668484
+	974354840	Ricardo_Herrera_Hurtado	C:\Users\88555 omx\Downloads\WwiseColab0419-main\WwiseColab0419-main\GitHubREPO\.cache\Windows\SFX\Communications, Radio, Tuning, FM, Analog SND13843_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ricardo_Herrera_Hurtado		6343232
 
