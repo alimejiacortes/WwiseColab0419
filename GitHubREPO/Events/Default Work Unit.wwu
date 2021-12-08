@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" SchemaVersion="103">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" PersistMode="Standalone">
 			<ChildrenList>
@@ -9,6 +9,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ali_Mejia_Cortes" ID="{7C54E6BD-F4E2-4A10-AD25-D99EF29F428C}" WorkUnitID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Roy" ID="{BB55BE12-EF33-418A-BA8A-B7612A55BB69}">
+					<ChildrenList>
+						<Action Name="" ID="{8A587473-700F-42A0-9AA8-747583D9A6C0}" ShortID="719203998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rodrigo_Hernandez_Giribet" ID="{514AED68-EC32-4091-9AAE-F52F21B10035}" WorkUnitID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

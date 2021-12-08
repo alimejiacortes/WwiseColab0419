@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/royhernandezgiribet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/WwiseColab0419-main/GitHubREPO/</ProjectRoot>
+		<SourceFilesRoot>/Users/royhernandezgiribet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/WwiseColab0419-main/GitHubREPO/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/royhernandezgiribet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/WwiseColab0419-main/GitHubREPO/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/royhernandezgiribet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/WwiseColab0419-main/GitHubREPO/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4224686144">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2272994438" Language="SFX" Hash="245114350">
+			<ObjectPath>\SoundBanks\Default Work Unit\Lista</ObjectPath>
+			<ShortName>Lista</ShortName>
+			<Path>Lista.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2976310898" Name="Play_Ali" ObjectPath="\Events\Default Work Unit\Play_Ali">
+					<IncludedMemoryFiles>
+						<File Id="891600938" Language="SFX">
+							<ShortName>Alarms, Bell, School, Ring SND0342.wav</ShortName>
+							<Path>SFX/Alarms, Bell, School, Ring SND0342_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2453100384" Name="Play_Roy" ObjectPath="\Events\Default Work Unit\Play_Roy">
+					<IncludedMemoryFiles>
+						<File Id="1004252564" Language="SFX">
+							<ShortName>Voices, Male, Moaning SND11238.wav</ShortName>
+							<Path>SFX/Voices, Male, Moaning SND11238_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

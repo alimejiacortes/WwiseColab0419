@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" PersistMode="Standalone">
 			<ChildrenList>
@@ -13,13 +13,40 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" ShortID="891600938">
+						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}">
 							<Language>SFX</Language>
 							<AudioFile>Alarms, Bell, School, Ring SND0342.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="891600938"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Rodrigo_Hernandez_Giribet" ID="{514AED68-EC32-4091-9AAE-F52F21B10035}" ShortID="625021618">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F054D769-62DE-4F17-85D1-BB2DFEE99B66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{42E5DEDC-1C58-418E-BB87-C5C33CF14083}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voices, Male, Moaning SND11238" ID="{DB600022-779E-4725-BA78-EAADF186FF04}">
+							<Language>SFX</Language>
+							<AudioFile>Voices, Male, Moaning SND11238.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1004252564"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Voices, Male, Moaning SND11238" ID="{DB600022-779E-4725-BA78-EAADF186FF04}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
