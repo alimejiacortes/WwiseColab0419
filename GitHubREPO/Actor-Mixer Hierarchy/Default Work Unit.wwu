@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" PersistMode="Standalone">
 			<ChildrenList>
@@ -13,13 +13,40 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" ShortID="891600938">
+						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}">
 							<Language>SFX</Language>
 							<AudioFile>Alarms, Bell, School, Ring SND0342.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="891600938"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ricardo_Herrera_Hurtado" ID="{CB9A6AFF-DCC3-451A-A4B0-ED69E14E9A62}" ShortID="1057488395">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F054D769-62DE-4F17-85D1-BB2DFEE99B66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{42E5DEDC-1C58-418E-BB87-C5C33CF14083}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Communications, Radio, Tuning, FM, Analog SND13843" ID="{36A00198-818A-4A63-B250-83232D062A66}">
+							<Language>SFX</Language>
+							<AudioFile>Communications, Radio, Tuning, FM, Analog SND13843.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="974354840"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Communications, Radio, Tuning, FM, Analog SND13843" ID="{36A00198-818A-4A63-B250-83232D062A66}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
